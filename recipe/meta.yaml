@@ -1,5 +1,5 @@
 {% set name = "jaraco.docker" %}
-{% set version = "2.2.1" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jaraco_docker-{{ version }}.tar.gz
-  sha256: 2320bd42864155108bec1a678f54e86d676931e974f537fc182527e8422c8ff5
+  sha256: 6c7fa87f7f69cd18265882aac91db33ad2ed9198bcd51acf1b06c97582d1aff4
 
 build:
   noarch: python
